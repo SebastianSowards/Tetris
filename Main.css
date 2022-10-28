@@ -1,10 +1,43 @@
-.grid{
+.container {
+  display:flex;
+}
+.Grid{
   width:200px;
   height:400px;
+  display:flex;
+  flex-wrap:wrap;
   background-color:yellow;
 }
-.grid div{
+.Grid div{
   height:20px;
   width:20px;
-  background-color:red;
+  
+}
+.Tetromino l{
+  background-image:url("images.png") 32px 32px;
+}
+
+.Tetromino z{
+  background-color:blue;
+}
+.Tetromino t{
+  background-color:blue;
+}
+.Tetromino o{
+  background-color:blue;
+}
+.Tetromino i{
+  background-color:blue;
+}
+.miniGrid{
+  margin-left:50px;
+  width:80px;
+  height:80px;
+  display:flex;
+  flex-wrap:wrap;
+  background-color:yellow;
+}
+.miniGrid div{
+  width:20px;
+  height:20px;
 }
